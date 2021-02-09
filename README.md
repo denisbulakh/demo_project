@@ -6,10 +6,9 @@ This is an API service, which is a part of a marketplace platform product, where
 
 ## Scope and tech stack
 Scope of this implementation is limited due to tough deadlines:
-- Proper image handling is not implemented
-- Readiness to production such as proper monitoring and appropriate logging
-- Listings and filtering are implemented with built-in using ready framework API Platform,
-according to the Symfony documentation. Custom controller implemented only for create operation.
+- Proper image upload, resize and handling is not implemented
+- Readiness to production such as proper monitoring and appropriate logging, is missing
+- Listings and filtering are implemented with built-in using ready framework API Platform, according to the Symfony documentation. Custom controller implemented only for create operation.
 
 The following tech stack is used:
 - PHP 8.02
@@ -40,4 +39,4 @@ make build
 make down
 ```
 
-The last command can be used to shutdown the test application locally.
+The last command can be used to shutdown the test application locally
