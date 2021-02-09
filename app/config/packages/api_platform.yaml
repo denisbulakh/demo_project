@@ -1,0 +1,18 @@
+api_platform:
+    title: 'Test application'
+    description: 'Test application based on Symfony 5 and PHP8'
+    version: '0.0.1'
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+    formats:
+        json:
+            mime_types: ['application/json']
+        html:
+            mime_types: ['text/html']
+    error_formats:
+        jsonproblem:
+            mime_types: ['application/problem+json']
