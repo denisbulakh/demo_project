@@ -1,8 +1,8 @@
-# Test project
-This is a test project made in frames of the coding challenge. Project is based on Symfony5 and PHP8
+# Demo project
+This is a demo project, made in frames of the coding challenge. Project is based on Symfony5 and PHP8
 
 ## Abstract
-This is an API service, which is a part of a marketplace platform product, where users can find human advisors
+Project is an API service, which is a part of a marketplace platform product, where users can find human advisors
 
 ## Scope and tech stack
 Scope of this implementation is limited due to tough deadlines:
